@@ -1,4 +1,4 @@
-module github.com/streamingfast/sparkle-pancakeswap
+module github.com/biswapcom/sparkle-biswap
 
 go 1.15
 
