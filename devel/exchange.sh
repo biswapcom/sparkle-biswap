@@ -4,7 +4,7 @@ ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
 SUBGRAPH_NAME="biswap/exchange"
 SUBGRAPH_VERSION="pedantic-mogwai"
 SUBGRAPH="${SUBGRAPH_NAME}@${SUBGRAPH_VERSION}"
-PSQL_DSN="${PSQL_DSN:-"postgresql://postgres:psql@127.0.0.1:5432/graph-node?enable_incremental_sort=off&sslmode=disable"}"
+PSQL_DSN="${PSQL_DSN:-"postgresql://postgres:1@127.0.0.1:5432/graph-node?enable_incremental_sort=off&sslmode=disable"}"
 main() {
   pushd "$ROOT" &> /dev/null
 
